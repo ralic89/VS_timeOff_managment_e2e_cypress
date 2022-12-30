@@ -5,11 +5,15 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    env : {
-      validEmail : "dragan@dragan.com",
-      validPassword : "Nada1111!"
+    env: {
+      validEmail: "dragan@dragan.com",
+      validPassword: "Nada1111!",
+      envToken: "",
+      orgId: "",
+      boardId: "",
+      memberEmail : 'test@test.com' ,
     },
-    baseUrl : "https://cypress.vivifyscrum-stage.com",
-    watchForFileChanges : false
+    baseUrl: "https://cypress.vivifyscrum-stage.com",
+    watchForFileChanges: false,
   },
 });
